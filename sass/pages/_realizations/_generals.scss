@@ -62,7 +62,7 @@
         }
 .section-slider-blog__item__content{
     padding: 0 6%;
-    
+
       @media (min-width: $md) {
         padding: 0 6%;
       }
@@ -135,9 +135,11 @@
 
     .owl-nav {
         @media (min-width: $xle) {
+            margin-top: -50px;
+        }
+  @media (min-width: $xle-more) {
             margin-top: -85px;
         }
-
         @media (min-width: $full-hd) {
             margin-top: -85px;
         }

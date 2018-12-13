@@ -75,6 +75,9 @@ textarea.form-control {
         height: 151px;
      }
      @media (min-width: $xle) {
+        height: 272px;
+     }
+      @media (min-width: 1450px) {
         height: 252px;
      }
 }

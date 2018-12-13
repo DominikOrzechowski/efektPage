@@ -3,6 +3,9 @@
 	 @media (min-width: $lg) {
 	 	padding-top: 74px;
 	 }
+      @media (min-width: $xle) {
+        padding-top: 104px;
+     }
 	@media (min-width: $full-hd) {
         padding: 178px 0 109px;
     }
@@ -73,9 +76,11 @@
             }
 
             @media (min-width: $xle) {
+                height: 500px;
+            }
+  @media (min-width: $xle-more) {
                 height: 600px;
             }
-
             @media (min-width: $full-hd) {
                 height: 738px;
             }

@@ -113,6 +113,9 @@ padding-left: 7%;
             @media (min-width: $lg) {
                 height: 215px;
             }
+             @media (min-width: $xle) {
+                height: 270px;
+            }
   @media (min-width: $xle-more) {
                 height: 280px;
             }
